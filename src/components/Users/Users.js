@@ -3,7 +3,7 @@ import {User} from "../User/User";
 import {usersService} from "../../services";
 
 
-const Users = ({setDetails}) => {
+const Users = ({setDetails, setPostsById}) => {
 
     const [users, setUsers] = useState([]);
 
@@ -13,7 +13,7 @@ const Users = ({setDetails}) => {
 
     return (
         <div>
-            {!!users.length && users.map(user => <User key={user.id} user={user} setDetails={setDetails}/>)}
+            {!!users.length && users.map(user => <User key={user.id} user={user} setDetails={setDetails} setPostsById={setPostsById}/>)}
         </div>
     );
 };

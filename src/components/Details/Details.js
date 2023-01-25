@@ -4,7 +4,10 @@ const Details = ({details, onHide, onShowPosts}) => {
         <div>
             {id}--{name}--{username}
             <button onClick={() => onShowPosts(id)}>ShowPosts</button>
-            <button onClick={() => onHide(null)}>Hide</button>
+            <button onClick={() => {
+                onHide(null)
+                onShowPosts(null)
+            }}>Hide</button>
         </div>
     );
 };

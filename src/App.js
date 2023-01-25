@@ -13,7 +13,7 @@ const App = () => {
             <br/>
             {postsById && (<Posts postsById={postsById}/>)}
             <hr/>
-            <Users setDetails={setDetails}/>
+            <Users setDetails={setDetails} setPostsById={setPostsById}/>
         </div>
     );
 };
