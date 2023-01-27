@@ -1,0 +1,12 @@
+.wrap {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    overflow-y: scroll;
+    border-bottom: black;
+    margin: 7px;
+    border-bottom: 2px solid black;
+
+}
