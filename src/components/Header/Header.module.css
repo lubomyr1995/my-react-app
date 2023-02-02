@@ -1,0 +1,30 @@
+.bar {
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: #e1bef5;
+}
+
+.bar a {
+    display: block;
+    width: 250px;
+    color: black;
+    border: 1px solid #550ab0;
+    border-radius: 6px;
+    text-decoration: none;
+    font: 30px bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #b183ef;
+}
+
+.bar a[class='active'] {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background-color: #550ab0;
+}
