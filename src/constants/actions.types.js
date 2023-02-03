@@ -1,0 +1,12 @@
+const actionsTypes = {
+    ADD_CAT: 'ADD_CAT',
+    ADD_DOG: 'ADD_DOG',
+    DEL_CAT_BY_ID: 'DEL_CAT_BY_ID',
+    DEL_DOG_BY_ID: 'DEL_DOG_BY_ID',
+    SET_CAT_TO_UPDATE: 'SET_CAT_TO_UPDATE',
+    SET_DOG_TO_UPDATE: 'SET_DOG_TO_UPDATE',
+    UPDATE_CAT_BY_ID: 'UPDATE_CAT_BY_ID',
+    UPDATE_DOG_BY_ID: 'UPDATE_DOG_BY_ID'
+}
+
+export {actionsTypes}

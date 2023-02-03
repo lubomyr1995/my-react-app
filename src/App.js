@@ -1,7 +1,9 @@
+import {Animals} from "./components";
+
 const App = () => {
     return (
         <div>
-            App
+            <Animals/>
         </div>
     );
 };
