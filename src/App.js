@@ -1,7 +1,11 @@
+import {Cats, CatsForm} from "./components";
+
 const App = () => {
     return (
         <div>
-            App
+            <CatsForm/>
+            <hr/>
+            <Cats/>
         </div>
     );
 };
