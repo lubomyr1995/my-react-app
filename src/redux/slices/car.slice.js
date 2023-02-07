@@ -64,9 +64,9 @@ const carSlice = createSlice({
     name: 'carSlice',
     initialState,
     reducers: {
-        // createThunk: (state, action) => {
-        //     state.cars.push(action.payload.car)
-        // },
+        createThunk: (state, action) => {
+            state.cars.push(action.payload.car)
+        },
         del: (state, action) => {
             const index = state.cars.findIndex(i => i.id === action.payload.id)
             state.cars.splice(index, 1)
