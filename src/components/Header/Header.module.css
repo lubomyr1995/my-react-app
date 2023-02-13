@@ -1,0 +1,29 @@
+.bar {
+    box-sizing: border-box;
+    min-height: 50px;
+    background: darkseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.bar a {
+    margin-right: 5px;
+    display: block;
+    width: 130px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font: 30px bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #d0f179;
+}
+
+.bar a[class='active'] {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: #b9f12d;
+}
