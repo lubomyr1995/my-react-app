@@ -1,0 +1,11 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lubomyr1995/my-react-app.git",
+  "author": "lubomyr <lubomyr1995@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
